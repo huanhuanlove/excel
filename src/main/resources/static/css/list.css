@@ -1,0 +1,28 @@
+body{
+    background: url("/static/img/bg2.jpg");
+}
+
+.myfile{
+    opacity: 0;
+    border: red 1px solid;
+    position: absolute;
+}
+
+.myfile2{
+    width: 187px;
+    position: relative;
+    border: gray 1px solid;
+    top: -34px;
+    left: 58px;
+}
+
+.myfile2:hover{
+    border: #374580 1px solid;
+}
+
+.myuser{
+    height:300px;
+    width: 900px;
+    overflow:auto;
+    margin: 0 auto;
+}
